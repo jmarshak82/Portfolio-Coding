@@ -4,6 +4,9 @@
     justify-content: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+header {
+    display: flex;
+}
 img {
     max-width: 100%;
 }
@@ -15,6 +18,7 @@ img {
 }
 nav {
     text-align: right;
+    width: 50%;
 }
 .inline-block { 
     display:inline-block;
@@ -32,6 +36,7 @@ nav {
     padding: 12px;
     margin-top: 100px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lightgrey;
   }
   div h1 {
       font-size: 35px;
